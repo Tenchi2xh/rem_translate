@@ -158,6 +158,11 @@
       "usage": "{{- prefix}}jisho [definition number] (english | romaji | japanese)",
       "example": "`{{- prefix}}jisho kaeru`: Shows the reading and definitions for “to return”\n`{{- prefix}}jisho 5 kaeru`: Shows the reading and definitions for “frog”\n`{{- prefix}}jisho 家`: Shows the reading and definitions for “house”\n`{{- prefix}}jisho exchange student`: Shows the reading and definitions for 「留学生」"
     },
+    "read": {
+      "short": "Transliterates a Japanese sentence in hiragana (do not include any English)",
+      "usage": "{{- prefix}}read <sentence>",
+      "example": "`{{- prefix}}read 俺を食べるときっとお腹は痛くなるよ`\n→ おれ・を・たべる・と・きっと・おなか・は・いたく・なる・よ"
+    },
     "introduction": ":wave: **Hey I'm {{- name}}**, let's have fun together here on Discord (/^▽^)/\n\nTo get you started type `{{- prefix}}help [command]` to get more info about a command, for example: `{{- prefix}}help ping`",
     "intro": "lets have fun together here on Discord (/^▽^)/ select a command category by responding with {{pre}}help number of command to know more:",
     "intro_2": "Hey I'm",
