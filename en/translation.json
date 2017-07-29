@@ -154,9 +154,9 @@
       "example": "`{{- prefix}}ship Rem Subaru` Ships a user named Rem with a user named Subaru"
     },
     "jisho": {
-      "short": "Look up for a definition on the online Jisho Japanese dictionary",
-      "usage": "{{- prefix}}jisho [definition number] (english | romaji | japanese)",
-      "example": "`{{- prefix}}jisho kaeru`: Shows the reading and definitions for “to return”\n`{{- prefix}}jisho 5 kaeru`: Shows the reading and definitions for “frog”\n`{{- prefix}}jisho 家`: Shows the reading and definitions for “house”\n`{{- prefix}}jisho exchange student`: Shows the reading and definitions for 「留学生」"
+      "short": "Look up a definition on Jisho (Japanese dictionary)",
+      "usage": "{{- prefix}}jisho [number] (english | romaji | japanese)",
+      "example": "`{{- prefix}}jisho kaeru`: Shows the definition for “to return”\n`{{- prefix}}jisho 5 kaeru`: Shows the definition for “frog”\n`{{- prefix}}jisho 家`: Shows the reading and definitions for “house”\n`{{- prefix}}jisho exchange student`: Shows the reading and definitions for「留学生」"
     },
     "read": {
       "short": "Transliterates a Japanese sentence in hiragana (do not include any English)",
